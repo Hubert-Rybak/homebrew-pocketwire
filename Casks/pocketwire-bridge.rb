@@ -2,8 +2,8 @@
 # (Hubert-Rybak/homebrew-pocketwire, Casks/pocketwire-bridge.rb) for every release:
 #   brew install --cask hubert-rybak/pocketwire/pocketwire-bridge
 cask "pocketwire-bridge" do
-  version "0.3.0"
-  sha256 "8934d9474f74af514202d801b57ef900d303beeaa60a92281fca547840a3c0fb"
+  version "0.4.0"
+  sha256 "5d899bf71a5b24640906792ceec9dc95ba0d6797c896472eb9ad1d80b1e93fa4"
 
   url "https://github.com/Hubert-Rybak/pocketwire-bridge/releases/download/v#{version}/Pocketwire-Bridge-macos.zip"
   name "Pocketwire Bridge"
@@ -28,7 +28,7 @@ cask "pocketwire-bridge" do
               "~/Library/LaunchAgents/app.pocketwire.bridge.plist",
             ]
 
-  # Pairing, private messages and certificates; removed only with `brew uninstall --zap`.
+  # Pairing, the control page's key and the log; removed only with `brew uninstall --zap`.
   zap trash: "~/Library/Application Support/pocketwire"
 
   caveats <<~EOS

@@ -5,8 +5,8 @@
 class Pocketwire < Formula
   desc "Lets your AI agents send texts from your phone, with your approval"
   homepage "https://pocketwire.app/"
-  url "https://github.com/Hubert-Rybak/pocketwire-bridge/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "ff480c49aa42f047a071c13c42c9df6a31bee5df6a46ab0acc06fa0188e52e7d"
+  url "https://github.com/Hubert-Rybak/pocketwire-bridge/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "efb4d58b298d813d2520e1af8658150ce34e1b055b7192d2a81fa4884f67db18"
   license "Apache-2.0"
   head "https://github.com/Hubert-Rybak/pocketwire-bridge.git", branch: "main"
 

@@ -2,8 +2,8 @@
 # (Hubert-Rybak/homebrew-pocketwire, Casks/pocketwire-bridge.rb) for every release:
 #   brew install --cask hubert-rybak/pocketwire/pocketwire-bridge
 cask "pocketwire-bridge" do
-  version "0.4.1"
-  sha256 "3dae39f8d92ff2f8826b83e0618f4fccb1843a270b8268ddca9c9d4ed8cb27f7"
+  version "0.4.2"
+  sha256 "a3d47aa7e7178bf84f70b11e507aaa4d643096ee09f044b48f82122b49f633b0"
 
   url "https://github.com/Hubert-Rybak/pocketwire-bridge/releases/download/v#{version}/Pocketwire-Bridge-macos.zip"
   name "Pocketwire Bridge"
